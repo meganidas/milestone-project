@@ -1,0 +1,153 @@
+/****BASE STYLES****/
+
+body{
+font-family: 'Lato', sans-serif;
+}
+
+/***GRID***/
+
+.fullwidth{
+  width: 1440px;
+}
+
+.halfwidth{
+  width: 720px;
+  float: left;
+}
+
+.thirdwidth{
+  width: 480px;
+  float: left;
+}
+
+nav{
+  background-color: #72995b;
+  opacity: 60%;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+nav ul li{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+ul{
+  text-align: right;
+}
+
+header{
+  background-image: url('../img/header-img.jpg');
+  background-size: cover;
+  height: 810px;
+}
+
+h1 span{
+  color: black;
+  font-weight: bolder;
+  font-size: 100px;
+  padding-left: 320px;
+}
+
+#megan{
+  font-size: 72px;
+  color: white;
+  padding-left: 10px;
+}
+
+h1{
+  font-weight: normal;
+  color: white;
+  font-size: 72px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+
+}
+
+h2{
+  color: white;
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 80px;
+  padding-left: 470px;
+  margin-top: 10px;
+}
+
+h3{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+.portfolio p{
+  font-size: 30px;
+  padding: 130px 115px 40px 40px;
+  text-align: center;
+}
+
+.portfolio{
+  color: white;
+  background: #72995b;
+  height: 1450px;
+  display: block;
+}
+
+#jubileeimg{
+  padding: 115px;
+  width: 500px;
+}
+
+#rogueimg{
+  width: 500px;
+}
+
+#icons{
+  width: 500px;
+}
+
+.about{
+background: #dad7d2;
+height: 620px;
+}
+
+.about p{
+  font-size: 25px;
+  padding: 0px 50px 20px 115px;
+  text-align: justify;
+  line-height: 45px;
+}
+
+#portrait{
+  padding: 30px 115px;
+  width: 500px;
+}
+
+.contact{
+  background: #72995b;
+}
+
+#contactimg{
+  width: 340px;
+}
+
+.contact ul li{
+  display: inline-block;
+}
+
+#github, #behance, #linkedin, #instagram{
+  padding: 130px 20px;
+  width: 60px;
+}
+
+#email{
+  font-size: 20px;
+}
+
+footer{
+  clear: left;
+}
